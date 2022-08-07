@@ -1,0 +1,547 @@
+/* !Fonts */
+@font-face {
+  font-family: "Actor-Regular";
+  src: url("/font/Actor-Regular.ttf");
+}
+
+@font-face {
+  font-family: "BebasNeue Regular";
+  src: url("/font/BebasNeue Regular.otf");
+}
+
+@font-face {
+  font-family: "gilroy-regular";
+  src: url("/font/gilroy-regular.woff2");
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("/font/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("/font/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("/font/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("/font/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("/font/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Wulkan Display Regular";
+  src: url("/font/Wulkan Display Regular.otf");
+}
+
+@font-face {
+  font-family: "Wulkan Display Medium";
+  src: url("/font/Wulkan Display Medium.otf");
+}
+
+body {
+  background: #f7f7f7;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* container
+================ */
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* !header */
+.samarkand {
+  background: url(/img/samarkand.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.khiva {
+  background: url(/img/khiva.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.bukhara {
+  background: url(/img/bukhara.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.uzbekiston {
+  background: url(/img/uzbekiston_slider.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+header {
+  padding: 38px 0;
+}
+
+.nav__content {
+  display: flex;
+  padding-top: 27px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* !nav */
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav__item {
+  color: white;
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.nav__social {
+  display: flex;
+  gap: 1rem;
+}
+
+.samarkand__content {
+  padding-top: 173px;
+  padding-bottom: 551px;
+}
+
+.khiva__content {
+  padding-top: 545px;
+  padding-bottom: 179px;
+}
+
+.bukhara__content {
+  padding-top: 603px;
+  padding-bottom: 120px;
+}
+
+.uzbekiston__content {
+  padding-top: 703px;
+  padding-bottom: 19px;
+}
+
+.bottom_button {
+  height: 73px;
+
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(24, 24, 24, 0.5);
+}
+
+.bottom_button.intro {
+  background-color: transparent;
+}
+
+.content__button {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 66px;
+}
+
+.content__button h5 {
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 36px;
+  height: 36px;
+  top: 96.5%;
+
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 76px;
+
+  color: #fff;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 16px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+
+.intro__title {
+  font-family: "Wulkan Display Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 100px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.intro__subtitle {
+  font-family: "Actor-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.nav__social a i {
+  color: white;
+  font-size: 25px;
+}
+
+.video-popup {
+  display: flex;
+  margin-top: 40px;
+  gap: 20.94px;
+  justify-content: center;
+  text-align: center;
+}
+
+.video-popup.style-2 a {
+  color: #fff;
+}
+
+.btn-play {
+  position: relative;
+  width: 31.71px;
+  height: 31.71px;
+  display: inline-block;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  text-align: center;
+  color: #fff;
+}
+
+.video-popup a i {
+  color: rgb(62, 67, 109);
+  width: 14.01px;
+  height: 14.01px;
+  margin: 8.85px;
+}
+
+.style-2 .circle-1,
+.style-2 .circle-2 {
+  border-color: #fff;
+}
+
+.video-popup a span {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  animation: circle-fade-before 2s infinite ease-in-out;
+  -webkit-animation: circle-fade-before 2s infinite ease-in-out;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.video-popup a .circle-2 {
+  animation: circle-fade-after 2s infinite ease-in-out;
+  -webkit-animation: circle-fade-after 2s infinite ease-in-out;
+}
+
+.style-2 .circle-1,
+.style-2 .circle-2 {
+  border-color: #fff;
+}
+
+.video-popup > a {
+  font-family: "Actor-Regular";
+  font-style: normal;
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: center;
+}
+
+@keyframes circle-fade-before {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+@keyframes circle-fade-after {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+/* !destionations */
+
+.destionations {
+  background: url(/img/background-1.png);
+}
+
+.destionations__content {
+  padding-top: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.destionations__left {
+  font-family: "BebasNeue Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  text-align: start;
+  text-transform: uppercase;
+
+  color: #31c0ff;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+
+li a {
+  color: #a4a4a4;
+}
+
+li a:hover {
+  padding-bottom: 4px;
+  border-bottom: 3px solid #0fbeff;
+}
+
+.wrapper_tab-content {
+  position: relative;
+}
+
+.tabs {
+  gap: 20px;
+}
+
+.tab-content {
+  position: absolute;
+  padding: 1.75em 0;
+  visibility: hidden;
+  height: 0;
+}
+
+.tab-content h1 {
+  font-size: 1.12em;
+  margin-bottom: 0.5em;
+}
+
+.tab-item a {
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.content-visible {
+  position: static;
+  visibility: visible;
+  height: auto;
+}
+
+.active {
+  color: #444;
+  padding-bottom: 4px;
+  border-bottom: 3px solid #0fbeff;
+}
+
+/* !Uzbekistan */
+
+.uzb__background {
+  background: url(/img/Uzbekiston.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.uzb__content {
+  margin-top: 103px;
+}
+
+.uzb__img {
+  width: 100%;
+  margin-left: -210px;
+  object-fit: cover;
+}
+
+.uzb__block {
+  display: block;
+}
+
+.uzb__text {
+  margin-top: 80px;
+
+  font-family: "Actor-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.uzb__text h1 {
+  font-family: "Wulkan Display Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 133px;
+
+  padding-top: 16px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.btn__uzb {
+  margin-top: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.uzb__button {
+  border: 2px solid #fff;
+  background-color: transparent;
+  border-radius: 44px;
+  padding: 16px 32px;
+
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 168.5%;
+
+  color: #ffffff;
+}
+
+.uzb__location {
+  margin-top: 42px;
+  display: flex;
+  gap: 20px;
+}
+
+.uzb__location i {
+  color: #fff;
+  font-size: 20px;
+}
+
+.uzb__location p {
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.btn__buttom {
+  display: block;
+  width: 137px;
+  height: 137px;
+  justify-content: center;
+  text-align: center;
+}
+
+.button__border1 {
+  border-radius: 50%;
+  border: 1px dashed rgba(255, 255, 255, 0.26);
+}
+
+.button__border2 {
+  margin: 43px;
+  border-radius: 50%;
+  border: 1px dashed #c4c4c4;
+}
+
+.buttom__border2 i {
+  color: #fff;
+  font-size: 30px;
+}

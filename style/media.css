@@ -1,0 +1,55 @@
+@media (max-width: 1500px) {
+    .container {
+      max-width: 1200px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+      max-width: 970px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    .container {
+      max-width: 750px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 768px) {
+    .container {
+      max-width: 650px;
+    }
+}
+
+@media (max-width: 692px) {
+    .container {
+      max-width: 510px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+      max-width: 450px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+      max-width: 350px;
+    }
+}
+
+@media (max-width: 390px) {
+    .container {
+      max-width: 300px;
+    }
+}
+
+@media (max-width: 290px) {
+    .container {
+      max-width: 255px;
+    }
+}
