@@ -489,6 +489,7 @@ li a:hover {
   background-color: transparent;
   border-radius: 44px;
   padding: 16px 32px;
+  cursor: pointer;
 
   font-family: "gilroy-regular";
   font-style: normal;
@@ -503,6 +504,8 @@ li a:hover {
   margin-top: 42px;
   display: flex;
   gap: 20px;
+  text-align: left;
+  align-items: center;
 }
 
 .uzb__location i {
@@ -526,7 +529,7 @@ li a:hover {
   display: block;
   width: 137px;
   height: 137px;
-  justify-content: center;
+
   text-align: center;
 }
 
@@ -541,7 +544,13 @@ li a:hover {
   border: 1px dashed #c4c4c4;
 }
 
-.buttom__border2 i {
+.button__border2 i {
   color: #fff;
-  font-size: 30px;
+  margin: 8px;
+  font-size: 20px;
+}
+
+.uzb__content__button {
+  display: flex;
+  justify-content: center;
 }
