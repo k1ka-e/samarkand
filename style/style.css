@@ -504,7 +504,7 @@ li a:hover {
   margin-top: 42px;
   display: flex;
   gap: 20px;
-  text-align: left;
+  justify-content: left;
   align-items: center;
 }
 
