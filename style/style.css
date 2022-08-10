@@ -554,3 +554,136 @@ li a:hover {
   display: flex;
   justify-content: center;
 }
+
+/* !overview */
+
+.overview {
+  background: #263238;
+  padding-top: 100px;
+  padding-bottom: 600px;
+}
+
+.overview__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.overview__left {
+  width: 40%;
+}
+
+.overview__title {
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 171%;
+
+  text-align: start;
+
+  color: #ffffff;
+}
+
+.overview__subtitle {
+  margin-top: 16px;
+  font-family: "Wulkan Display Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 66px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.overview__text h1 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.overview__text {
+  margin-top: 31px;
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 171%;
+
+  color: #e0e0e0;
+}
+
+.overview__right {
+  display: flex;
+  text-align: right;
+  position: relative;
+}
+
+/* .overview_img {
+  position: absolute;
+} */
+
+.overview_img2 {
+  z-index: 5;
+  align-items: center;
+}
+
+.overview_img2 img {
+  margin-top: 230px;
+  margin-right: -177px;
+}
+
+.overview__list {
+  margin-top: 100px;
+}
+
+.over_list_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.over_list_left h1,
+.over_list_right h1 {
+  font-family: "Wulkan Display Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 99%;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.over__border {
+  margin-top: 52px;
+  border: 2px solid #ffffff;
+}
+
+.over_item {
+  margin-top: 42px;
+  display: block;
+}
+
+.over_item li {
+  position: relative;
+  font-family: "gilroy-regular";
+  font-style: normal;
+  padding-left: 16px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 99%;
+  margin-top: 19px;
+  color: #ffffff;
+}
+
+.over_item li:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 9px;
+  height: 9px;
+  background: #ff794d;
+}
