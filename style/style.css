@@ -687,3 +687,27 @@ li a:hover {
   height: 9px;
   background: #ff794d;
 }
+
+/* !silk */
+
+.silk__img {
+  display: flex;
+  gap: 45px;
+  position: relative;
+}
+
+.silk__img1,
+.silk__img2 {
+  position: absolute;
+  top: -50%;
+}
+
+.silk__img1 img {
+  width: 573px;
+  top: -50%;
+}
+
+.silk__img2 img {
+  overflow: hidden;
+  top: -50%;
+}
