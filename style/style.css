@@ -49,6 +49,11 @@
   src: url("/font/Wulkan Display Medium.otf");
 }
 
+@font-face {
+  font-family: "Wulkan Display Medium Italic";
+  src: url("/font/Wulkan Display Medium Italic.otf");
+}
+
 body {
   background: #f7f7f7;
 }
@@ -371,14 +376,14 @@ ul {
   height: 30px;
 }
 
-li a {
+/* li a {
   color: #a4a4a4;
 }
 
 li a:hover {
   padding-bottom: 4px;
   border-bottom: 3px solid #0fbeff;
-}
+}  */
 
 .wrapper_tab-content {
   position: relative;
@@ -431,7 +436,7 @@ li a:hover {
 .uzb__background {
   background: url(/img/Uzbekiston.png);
   background-repeat: no-repeat;
-  background-position: top;
+  height: 100%;
 }
 
 .uzb__content {
@@ -527,9 +532,9 @@ li a:hover {
 
 .btn__buttom {
   display: block;
+  margin-bottom: -40px;
   width: 137px;
   height: 137px;
-
   text-align: center;
 }
 
@@ -552,6 +557,13 @@ li a:hover {
 
 .uzb__content__button {
   display: flex;
+  justify-content: start;
+}
+
+.uzb__content__button2 {
+  display: flex;
+  z-index: 60;
+  left: 40%;
   justify-content: center;
 }
 
@@ -560,7 +572,7 @@ li a:hover {
 .overview {
   background: #263238;
   padding-top: 100px;
-  padding-bottom: 600px;
+  padding-bottom: 668px;
 }
 
 .overview__content {
@@ -640,7 +652,7 @@ li a:hover {
 
 .over_list_content {
   display: flex;
-  justify-content: space-between;
+  gap: 364px;
 }
 
 .over_list_left h1,
@@ -690,24 +702,286 @@ li a:hover {
 
 /* !silk */
 
+.silk {
+  padding-bottom: 261px;
+}
+
 .silk__img {
   display: flex;
-  gap: 45px;
+  gap: 55px;
   position: relative;
 }
 
 .silk__img1,
 .silk__img2 {
-  position: absolute;
-  top: -50%;
+  margin-top: -30%;
 }
 
 .silk__img1 img {
   width: 573px;
-  top: -50%;
 }
 
 .silk__img2 img {
   overflow: hidden;
-  top: -50%;
+}
+
+.silk__title {
+  margin-top: 109px;
+  font-family: "Wulkan Display Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 135%;
+
+  text-align: center;
+
+  color: #263238;
+}
+
+.silk__title p {
+  font-family: "Wulkan Display Medium Italic";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 135%;
+
+  text-align: center;
+
+  color: #263238;
+}
+
+.silk__text {
+  margin-top: 197px;
+  display: grid;
+  gap: 168px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.silk__text1,
+.silk__text2,
+.silk__text3 {
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 171%;
+  /* or 41px */
+
+  text-align: center;
+
+  color: #263238;
+}
+
+.silk__text1 p,
+.silk__text2 p,
+.silk__text3 p {
+  font-weight: 700;
+}
+
+.silk__text1,
+.silk__text2 {
+  border-right: 2px dashed #ff794d;
+}
+
+/* !path */
+
+.path {
+  background-color: #fff2f2;
+  background-image: url(/img/Vector\ 9.png);
+  background-repeat: no-repeat;
+  background-position: 20%;
+  padding-bottom: 41px;
+}
+
+.path2 {
+  background-color: #fff2f2;
+  padding-top: 300px;
+  padding-bottom: 261px;
+}
+
+.path__buttom {
+  display: block;
+  background: #fff2f2;
+  margin-top: -85px;
+  border-radius: 50%;
+  width: 168px;
+  height: 168px;
+  text-align: center;
+}
+
+.path__border1 {
+  padding: 17px;
+}
+
+.path__border2 {
+  border-radius: 50%;
+  border: 1px dashed #c4c4c4;
+}
+
+.path__start {
+  font-family: "gilroy-regular";
+  font-style: normal;
+  padding: 45px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #263238;
+}
+
+.path__vector {
+  margin-top: -32px;
+  margin-left: 55px;
+}
+
+.path__content {
+  margin-top: 300px;
+  margin-bottom: 261px;
+  display: flex;
+  gap: 341px;
+}
+
+.path__content2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.path__left p {
+  font-family: "Wulkan Display Regular";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 99%;
+
+  color: #263238;
+}
+
+.path__left {
+
+  background: #fff2f2;
+  z-index: 5;
+
+  font-family: "Wulkan Display Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 99%;
+  /* or 95px */
+
+  color: #263238;
+}
+
+.path__right {
+  width: 35%;
+}
+
+.path__right p {
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 171%;
+  /* or 41px */
+
+  color: #263238;
+}
+
+.path__img img {
+  width: 100%;
+  height: auto;
+}
+
+/* !footer */
+
+.footer {
+  padding-top: 120px;
+  padding-bottom: 115px;
+  background-color: #263238;
+  background-image: url(/img/ornament.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.footer__content {
+  display: grid;
+  gap: 250px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+}
+
+.footer__pod_link {
+  display: flex;
+  flex-direction: column;
+  margin-top: 117px;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 13px;
+}
+
+.footer__link h2,
+.footer__info h2 {
+  font-family: "BebasNeue Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 8px;
+
+  color: #ffffff;
+}
+
+.footer__pod_link a {
+  font-family: "BebasNeue Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.footer__item {
+  display: block;
+  margin-top: 10px;
+}
+
+.footer__item li a {
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  color: #ffffff;
+}
+
+.footer__logo img {
+  margin-bottom: 45px;
+}
+
+.footer__call a,
+.footer__email a,
+.footer__find a {
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  color: #ffffff;
+}
+
+.footer__call,
+.footer__email {
+  margin-bottom: 40px;
 }
