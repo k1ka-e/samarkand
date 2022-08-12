@@ -794,7 +794,10 @@ li a:hover {
 }
 
 .path2 {
+  background-image: url(/img/Vector\ 7.png);
   background-color: #fff2f2;
+  background-repeat: no-repeat;
+  /* background-position: 80%; */
   padding-top: 300px;
   padding-bottom: 261px;
 }
@@ -803,6 +806,16 @@ li a:hover {
   display: block;
   background: #fff2f2;
   margin-top: -85px;
+  border-radius: 50%;
+  width: 168px;
+  height: 168px;
+  text-align: center;
+}
+
+.path__buttom2 {
+  display: block;
+  background: #fff2f2;
+  margin-top: -185px;
   border-radius: 50%;
   width: 168px;
   height: 168px;
@@ -829,6 +842,19 @@ li a:hover {
   text-transform: uppercase;
 
   color: #263238;
+}
+
+.path__start2 {
+  font-family: "gilroy-regular";
+  font-style: normal;
+  padding: 45px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: transparent;
 }
 
 .path__vector {
@@ -859,7 +885,6 @@ li a:hover {
 }
 
 .path__left {
-
   background: #fff2f2;
   z-index: 5;
 
@@ -891,6 +916,159 @@ li a:hover {
 .path__img img {
   width: 100%;
   height: auto;
+}
+
+.path__images {
+  display: flex;
+  margin-top: 118px;
+  position: relative;
+}
+
+.path_samarkand_img,
+.path_samarkand_img2,
+.path_samarkand_img3 {
+  z-index: 5;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.path_samarkand_img img {
+  margin-left: -25px;
+}
+
+/* !Tours */
+
+.tours {
+  background: url(/img/tours/otaxon\ 1.png);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.tours__content {
+  margin-top: 457.1px;
+  padding-bottom: 328px;
+}
+
+.tours__text h1 {
+  font-family: "Wulkan Display Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 133px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.tours__text {
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.tours__content__button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.tours__location {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.tours__location i {
+  color: #fff;
+  font-size: 24px;
+}
+
+.tours__location p {
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.tabs {
+  background: #263238;
+  padding-top: 155px;
+  padding-bottom: 155px;
+}
+
+.countries_slider {
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 16px;
+  font-weight: bold;
+}
+.country {
+  background-color: #ffffff;
+  margin: 20px 0;
+  display: grid;
+  grid-template: repeat(1, 250px) / repeat(3, 1fr);
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.link {
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 168.5%;
+  /* identical to box height, or 27px */
+
+  text-align: center;
+
+  color: #ffffff;
+
+  padding: 14px 3px; 
+  /* gap: 10px; */
+
+  width: 182px;
+  height: 59px;
+
+  border: 2px solid #ffffff;
+  border-radius: 44px;
+}
+
+/* img {
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+ 
+} */
+
+.link:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #263238;
+
+}
+
+.link.active {
+  font-size: 18px;
+  border-bottom: solid 2px #fff;
 }
 
 /* !footer */
