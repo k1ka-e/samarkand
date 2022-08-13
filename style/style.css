@@ -947,8 +947,12 @@ li a:hover {
 
 .tours__content {
   margin-top: 457.1px;
-  padding-bottom: 328px;
 }
+
+.tours__block {
+  margin-bottom: 221px;
+}
+
 
 .tours__text h1 {
   font-family: "Wulkan Display Medium";
@@ -978,9 +982,28 @@ li a:hover {
 }
 
 .tours__content__button {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  padding-bottom: 80px;
+}
+
+.tours__load {
+
+  margin-top: 37px;
+
+  width: 131px;
+  height: 5px;
+  left: 228px;
+  top: 1028px;
+  
+  background: rgba(255, 255, 255, 0.43);
+}
+
+.load2 {
+  width: 27px;
+height: 5px;
+left: 228px;
+top: 1028px;
+
+background: #FF794D;
 }
 
 .tours__location {
@@ -1007,7 +1030,7 @@ li a:hover {
   color: #ffffff;
 }
 
-.tabs {
+.tabs__tours {
   background: #263238;
   padding-top: 155px;
   padding-bottom: 155px;
@@ -1015,19 +1038,25 @@ li a:hover {
 
 .countries_slider {
   margin: 20px 0;
+  padding-bottom: 545px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: start;
+  gap: 10px;
   font-size: 16px;
   font-weight: bold;
 }
-.country {
-  background-color: #ffffff;
-  margin: 20px 0;
+
+.tabs__card__content {
   display: grid;
-  grid-template: repeat(1, 250px) / repeat(3, 1fr);
-  gap: 10px;
-  justify-content: space-around;
+  gap: 100px;
+  margin-top: -630px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tab__card {
+  padding: 202px 0;
+  color: #fff;
 }
 
 .link {
@@ -1042,7 +1071,7 @@ li a:hover {
 
   color: #ffffff;
 
-  padding: 14px 3px; 
+  padding: 14px 3px;
   /* gap: 10px; */
 
   width: 182px;
@@ -1052,23 +1081,77 @@ li a:hover {
   border-radius: 44px;
 }
 
-/* img {
- height: 100%;
- width: 100%;
- object-fit: cover;
- 
-} */
-
 .link:hover {
   cursor: pointer;
   background-color: #ffffff;
   color: #263238;
-
 }
 
 .link.active {
-  font-size: 18px;
+  background-color: #ffffff;
+  color: #263238;
   border-bottom: solid 2px #fff;
+}
+
+.tabs__card__text h1 {
+  font-family: "Wulkan Display Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 135%;
+
+  text-align: center;
+
+  color: #263238;
+}
+
+.tabs__card__text {
+  font-family: "Wulkan Display Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 135%;
+  /* or 65px */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.tabs__card__text p {
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 135%;
+  /* identical to box height, or 27px */
+
+  text-align: center;
+
+  color: #263238;
+}
+
+.tebs__card__button {
+  margin-top: 30px;
+  padding: 16px 32px;
+
+  background: transparent;
+
+  border: 2px solid #263238;
+  border-radius: 44px;
+}
+
+.tebs__card__button a {
+  font-family: "gilroy-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 168.5%;
+  /* identical to box height, or 27px */
+
+  text-align: center;
+
+  color: #263238;
 }
 
 /* !footer */
